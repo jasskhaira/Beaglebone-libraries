@@ -34,6 +34,9 @@ public:
 //----------------------Api is used to initate the uart port----------------------
  int Init(char port[],int baudrate);
 
+ //----------------------Api is used to Destroy the uart port object----------------------
+ int DeInit();
+
  //---------Api is used to send data-----------------------------
  int send(char data[]);
 

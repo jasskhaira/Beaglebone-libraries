@@ -187,3 +187,12 @@
 	   return 1;
 	   }
   	  }
+
+ 	 int Uart::DeInit()
+ 	 	 	 {
+
+	 	 	 	 	 close(file);
+
+
+
+ 	 	 	 }
